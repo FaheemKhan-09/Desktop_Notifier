@@ -3,7 +3,6 @@ import tkinter as tk
 from PIL import ImageTk
 from queue import Queue
 
-
 def notify():
     if not message_queue.empty():
         title, message = message_queue.get()
